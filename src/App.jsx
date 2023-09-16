@@ -6,6 +6,8 @@ import Laywers from './assets/img/Lawyers1.jpg'
 import Lawfirm from './assets/img/lawfirm.jpg'
 import Shoffing from './assets/img/shoffing.jpg'
 import TwitterClone from './assets/img/twitter.jpg'
+import Daman from './assets/img/daman.png'
+import Deskise from './assets/img/deskise.png'
 import Facebook from './assets/img/facebook.png'
 import Twitter from './assets/img/twitterico.png'
 import Whatsapp from './assets/img/whatsapp.png'
@@ -234,6 +236,44 @@ function App() {
             </div>
             <a href="https://hassanabadla.github.io/Twitter-Clone/" target="_blank" className='preview'>Preview</a>
           </div>
+          </ScrollAnimation>
+
+          <ScrollAnimation animateIn='flipInY' delay={480}>
+            <div className="project-item">
+              <div className="project-img">
+                <img src={Daman} alt="" />
+              </div>
+              <div className="project-text">
+                <h3>Daman Reviews</h3>
+                <p>Daman Reviews is a website that specializes in evaluating trading companies in Arab countries</p>
+                <div className="tech">
+                  <p>Laravel</p>
+                  <p>MySQL</p>
+                  <p>Bootstrap</p>
+                </div>
+              </div>
+              <a href="https://daman.reviews/" target="_blank" className='preview'>Preview</a>
+            </div>
+          </ScrollAnimation>
+
+          <ScrollAnimation animateIn='flipInY' delay={480}>
+            <div className="project-item">
+              <div className="project-img">
+                <img src={Deskise} alt="" />
+              </div>
+              <div className="project-text">
+                <h3>Deskise</h3>
+                <p>A multi vendor trading platform for digital products</p>
+                <div className="tech">
+                  <p>Laravel</p>
+                  <p>Vue.js</p>
+                  <p>Nuxt.js</p>
+                  <p>API</p>
+                  <p>Firebase</p>
+                </div>
+              </div>
+              <a href="https://deskise.com/" target="_blank" className='preview'>Preview</a>
+            </div>
           </ScrollAnimation>
         </div>
       </section>
