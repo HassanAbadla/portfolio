@@ -135,7 +135,7 @@ function App() {
                 <p>Javascript</p>
               </div>
             </div>
-            <a href="https://www.outcropmediaa.com/en" target="_blank" className='preview'>Preview</a>
+            <a href="https://www.outcropmediaa.com/" target="_blank" className='preview'>Preview</a>
           </div>
           </ScrollAnimation>
 
