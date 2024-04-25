@@ -8,6 +8,7 @@ import Shoffing from './assets/img/shoffing.jpg'
 import TwitterClone from './assets/img/twitter.jpg'
 import Daman from './assets/img/daman.png'
 import Deskise from './assets/img/deskise.png'
+import Scout from './assets/img/Scout.png'
 import Facebook from './assets/img/facebook.png'
 import Twitter from './assets/img/twitterico.png'
 import Whatsapp from './assets/img/whatsapp.png'
@@ -273,6 +274,26 @@ function App() {
                 </div>
               </div>
               <a href="https://deskise.com/" target="_blank" className='preview'>Preview</a>
+            </div>
+          </ScrollAnimation>
+
+          <ScrollAnimation animateIn='flipInY' delay={480}>
+            <div className="project-item">
+              <div className="project-img">
+                <img src={Scout} alt="" />
+              </div>
+              <div className="project-text">
+                <h3>Scouts Management System</h3>
+                <p>Management System for adminstration and a profile management for Parents</p>
+                <div className="tech">
+                  <p>Laravel</p>
+                  <p>Vue.js</p>
+                  <p>CSS</p>
+                  <p>REST API</p>
+                  <p>Bambora Gateway</p>
+                </div>
+              </div>
+              <a href="https://scout.gulfytrend.com/login" target="_blank" className='preview'>Preview</a>
             </div>
           </ScrollAnimation>
         </div>
