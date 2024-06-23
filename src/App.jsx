@@ -157,7 +157,7 @@ function App() {
                 <p>MySQL</p>
               </div>
             </div>
-            <a href="https://berzeit.gulfytrend.com/" target="_blank" className='preview'>Preview</a>
+            <a href="https://berzeit.outcropmediaa.com/" target="_blank" className='preview'>Preview</a>
           </div>
           </ScrollAnimation>
 
@@ -197,7 +197,7 @@ function App() {
                 <p>Javascript</p>
               </div>
             </div>
-            <a href="https://lawyer.gulfytrend.com/" target="_blank" className='preview'>Preview</a>
+            <a href="https://lawyer.outcropmediaa.com/" target="_blank" className='preview'>Preview</a>
           </div>
           </ScrollAnimation>
 
@@ -293,7 +293,7 @@ function App() {
                   <p>Bambora Gateway</p>
                 </div>
               </div>
-              <a href="https://scout.gulfytrend.com/login" target="_blank" className='preview'>Preview</a>
+              <a href="https://scout.outcropmediaa.com/login" target="_blank" className='preview'>Preview</a>
             </div>
           </ScrollAnimation>
         </div>
