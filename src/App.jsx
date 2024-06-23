@@ -9,6 +9,7 @@ import TwitterClone from './assets/img/twitter.jpg'
 import Daman from './assets/img/daman.png'
 import Deskise from './assets/img/deskise.png'
 import Scout from './assets/img/Scout.png'
+import Instock from './assets/img/inStock.png'
 import Facebook from './assets/img/facebook.png'
 import Twitter from './assets/img/twitterico.png'
 import Whatsapp from './assets/img/whatsapp.png'
@@ -296,6 +297,26 @@ function App() {
               <a href="https://scout.outcropmediaa.com/login" target="_blank" className='preview'>Preview</a>
             </div>
           </ScrollAnimation>
+
+          <ScrollAnimation animateIn='flipInY' delay={480}>
+            <div className="project-item">
+              <div className="project-img">
+                <img src={Instock} alt="" />
+              </div>
+              <div className="project-text">
+                <h3>inStock</h3>
+                <p>A Multi-Vendor E-commerce Platform for requirements of scientific, industrial and medical laboratory supplies</p>
+                <div className="tech">
+                  <p>Laravel</p>
+                  <p>Vue.js</p>
+                  <p>Inertia</p>
+                  <p>TailwindCSS</p>
+                  <p>REST API</p>
+                </div>
+              </div>
+              <a href="https://instock-app.com" target="_blank" className='preview'>Preview</a>
+            </div>
+          </ScrollAnimation>
         </div>
       </section>
 
@@ -305,7 +326,7 @@ function App() {
           success?<h3 className="success">Your email was sent successfully</h3>:null
         }
         {
-          fail?<h3 className="fail">There is something wrong, try social account below</h3>:null
+          fail?<h3 className="fail">Something went wrong! Contact me via social account below</h3>:null
         }
         <div className="contact-wrapper">
           <form ref={form} onSubmit={sendEmail} >
@@ -321,11 +342,11 @@ function App() {
       <footer>
         <div className="footer-background"></div>
         <div className="footer-wrapper">
-          <h4>Hassan ALabadla</h4>
+          <h4>Hassan Alabadla</h4>
           <div className='social-contact'>
             <a href="https://www.facebook.com/halabadla/" target="_blank" ><img src={Facebook} alt="facebook"/>halabadla</a>
             <a href="https://twitter.com/Hassan_87" target="_blank" ><img src={Twitter} alt="Twitter"/>@Hassan_87</a>
-            <a href="https://wa.me/972597768434" target="_blank" ><img src={Whatsapp} alt="Whatsapp"/>+972 5977 68 434</a>
+            <a href="https://wa.me/201067704547" target="_blank" ><img src={Whatsapp} alt="Whatsapp"/>+201 0677 045 47</a>
             <a href="https://github.com/HassanAbadla" target="_blank" ><img src={Github} alt="Github"/>HassanAbadla</a>
           </div>
         </div>
